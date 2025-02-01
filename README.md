@@ -26,11 +26,11 @@ The goal is to help students understand how BGP "glues" the Internet together, a
 
 - <b>Task 1:</b> Stub Autonomous System<br>
      <b>Task 1.a:</b> Understanding AS-155’s BGP Configuration<br>
-  Task 1.b: Observing BGP UPDATE Messages<br>
-  Task 1.c: Experimenting with Large Communities<br>
-  Task 1.d: Configuring AS-180<br>
-Task 2: Transit Autonomous System<br>
-  Task 2.a: Experimenting with IBGP<br>
-  Task 2.b: Experimenting with IGP<br>
-Task 3: Path Selection<br>
-Task 4: IP Anycast<br>
+     <b>Task 1.b:<b>  Observing BGP UPDATE Messages<br>
+     <b>Task 1.c:<b>  Experimenting with Large Communities<br>
+     <b>Task 1.d:<b>  Configuring AS-180<br>
+- <b>Task 2:</b> Transit Autonomous System<br>
+     <b>Task 2.a:</b> Experimenting with IBGP<br>
+     <b>Task 2.b:</b> Experimenting with IGP<br>
+     <b>Task 3:</b> Path Selection<br>
+     <b>Task 4:</b>IP Anycast<br>
