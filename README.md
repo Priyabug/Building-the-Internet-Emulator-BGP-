@@ -24,8 +24,8 @@ The goal is to help students understand how BGP "glues" the Internet together, a
 
 <h2>Program walk-through:</h2>
 
-Task 1: Stub Autonomous System<br>
-  Task 1.a: Understanding AS-155’s BGP Configuration<br>
+- <b>Task 1:</b> Stub Autonomous System<br>
+     <b>Task 1.a:</b> Understanding AS-155’s BGP Configuration<br>
   Task 1.b: Observing BGP UPDATE Messages<br>
   Task 1.c: Experimenting with Large Communities<br>
   Task 1.d: Configuring AS-180<br>
