@@ -28,7 +28,7 @@ Here we will see how BGP "glues" the Internet together, and how the Internet is 
     <br> <b>Task 1.a:</b> Understanding AS-155’s BGP Configuration<br>
      <b>Task 1.b:<b>  Observing BGP UPDATE Messages<br>
      <b>Task 1.c:<b>  Experimenting with Large Communities<br>
-     <b>Task 1.d:<b>  Configuring AS-180<br>
+     <b>Task 1.d:<b>  Configuring AS-180<br><br>
 - <b>Task 2:</b> Transit Autonomous System<br>
  <br><b>Task 2.a:</b> Experimenting with IBGP<br>
      <b>Task 2.b:</b> Experimenting with IGP<br>
