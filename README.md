@@ -3,7 +3,7 @@
 <h2>Description</h2>
 Border Gateway Protocol (BGP) is the standard exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. It is the "glue" of the Internet, and is an essential piece of the Internet infrastructure. It is also a primary target of attacks, because if attackers can compromise BGP, they can cut off the Internet.
 
-The goal is to help students understand how BGP "glues" the Internet together, and how the Internet is actually connected. This lab is based on the Internet Emulator that we developed. We have conducted a series of experiments on the Emulator to see how BGP works. Students will also configure a stub and a transit autonomous system. Finally, students will launch the network prefix hijacking attack on one of the autonomous systems.
+Here we will see how BGP "glues" the Internet together, and how the Internet is actually connected. This lab is based on the Internet Emulator that we developed. We have conducted a series of experiments on the Emulator to see how BGP works. We will also configure a stub and a transit autonomous system. We will eventually launch a network prefix hijacking attack on one of the autonomous systems.
 <br />
 
 
