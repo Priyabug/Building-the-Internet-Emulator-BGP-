@@ -30,7 +30,7 @@ Here we will see how BGP "glues" the Internet together, and how the Internet is 
      <b>Task 1.c:<b>  Experimenting with Large Communities<br>
      <b>Task 1.d:<b>  Configuring AS-180<br>
 - <b>Task 2:</b> Transit Autonomous System<br>
-     <b>Task 2.a:</b> Experimenting with IBGP<br>
+ <br><b>Task 2.a:</b> Experimenting with IBGP<br>
      <b>Task 2.b:</b> Experimenting with IGP<br>
      <b>Task 3:</b> Path Selection<br>
      <b>Task 4:</b>IP Anycast<br>
