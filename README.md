@@ -1,36 +1,42 @@
-<h1>Launching BGP network on one of the autonomous system</h1>
+# 🚀 Launching BGP Network on One of the Autonomous Systems
 
-<h2>Description</h2>
-Border Gateway Protocol (BGP) is the standard exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet. It is the "glue" of the Internet, and is an essential piece of the Internet infrastructure. It is also a primary target of attacks, because if attackers can compromise BGP, they can cut off the Internet.
+## 📌 Description
+Border Gateway Protocol (**BGP**) is the standard exterior gateway protocol designed to exchange routing and reachability information among **autonomous systems (AS)** on the Internet. It is the *glue* of the Internet and a fundamental part of its infrastructure. However, it is also a prime target for attacks—if compromised, attackers can disrupt Internet connectivity.
 
-Here we will see how BGP "glues" the Internet together, and how the Internet is actually connected. This lab is based on the Internet Emulator that we developed. We have conducted a series of experiments on the Emulator to see how BGP works. We will also configure a stub and a transit autonomous system. We will eventually launch a network prefix hijacking attack on one of the autonomous systems.
-<br />
+This project explores how BGP interconnects the Internet, demonstrating its functionality using an **Internet Emulator**. Through a series of experiments, we analyze BGP operations, configure **stub** and **transit** autonomous systems, and simulate a **network prefix hijacking attack**.
 
+---
 
-<h2>Languages and Utilities Used</h2>
+## 🛠️ Languages and Utilities Used
+- 🐍 **Python**
+- 🖥️ **Bash**
+- 📦 **Docker and Docker Compose**
+- 🌍 **BIRD Internet Routing Daemon**
+- 📡 **tcpdump**
+- 🏗️ **Linux Command-Line Utilities**
+- 🌐 **SEED Internet Emulator Web Interface**
+- 🏴‍☠️ **Ubuntu 20.04 VM**
 
-- <b>Python</b>
-- <b>Bash</b>
-- <b>Docker and Docker Compose</b>
-- <b>BIRD Internet Routing Daemon</b>
-- <b>tcpdump</b>
-- <b>Linux Command-Line Utilities</b>
-- <b>SEED Internet Emulator Web Interface</b>
-- <b>Ununtu 20.04 VM</b>
+---
 
-<h2>Environments Used </h2>
+## 💻 Environments Used
+- 🏢 **Windows 10** *(21H2)*
 
-- <b>Windows 10</b> (21H2)
+---
 
-<h2>Program walk-through:</h2>
+## 📜 Program Walk-through
 
-- <b>Task 1:</b> Stub Autonomous System<br>
-    <br> <b>Task 1.a:</b> Understanding AS-155’s BGP Configuration<br>
-     <b>Task 1.b:<b>  Observing BGP UPDATE Messages<br>
-     <b>Task 1.c:<b>  Experimenting with Large Communities<br>
-     <b>Task 1.d:<b>  Configuring AS-180<br><br>
-- <b>Task 2:</b> Transit Autonomous System<br>
- <br><b>Task 2.a:</b> Experimenting with IBGP<br>
-     <b>Task 2.b:</b> Experimenting with IGP<br>
-     <b>Task 3:</b> Path Selection<br>
-     <b>Task 4:</b>IP Anycast<br>
+### 🔹 Task 1: Stub Autonomous System
+- **Task 1.a:** Understanding **AS-155’s BGP Configuration**
+- **Task 1.b:** Observing **BGP UPDATE Messages**
+- **Task 1.c:** Experimenting with **Large Communities**
+- **Task 1.d:** Configuring **AS-180**
+
+### 🔹 Task 2: Transit Autonomous System
+- **Task 2.a:** Experimenting with **IBGP**
+- **Task 2.b:** Experimenting with **IGP**
+
+### 🔹 Task 3: Path Selection
+
+### 🔹 Task 4: IP Anycast
+
