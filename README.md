@@ -68,9 +68,7 @@ This lab provided a comprehensive hands-on exploration of the **Border Gateway P
 
 ---
 
-### 🧠 Final Thoughts:
 
-This project not only demystified the inner workings of BGP but also reinforced the **critical importance of securing routing infrastructure** in today’s interconnected world. As future network engineers and defenders, understanding BGP is vital to safeguarding the Internet.
 
 
 
