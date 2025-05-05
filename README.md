@@ -41,9 +41,7 @@ This project explores how BGP interconnects the Internet, demonstrating its func
 ### 🔹 Task 4: IP Anycast
 
 
-## ✅ Conclusion
 
-This lab provided a comprehensive hands-on exploration of the **Border Gateway Protocol (BGP)**—the protocol that binds the global Internet together by enabling communication between Autonomous Systems (ASes).
 
 ---
 
@@ -63,6 +61,10 @@ BGP is powerful—but not without flaws. Through this lab, we learned:
 - How **misconfigurations** or **malicious behavior** can lead to **route hijacking** or **traffic interception**.
 - The importance of deploying **RPKI (Resource Public Key Infrastructure)** and **BGP monitoring tools** to improve routing security.
 - The need for **coordination among network operators** to ensure a resilient Internet backbone.
+
+## ✅ Conclusion
+
+This lab provided a comprehensive hands-on exploration of the **Border Gateway Protocol (BGP)**—the protocol that binds the global Internet together by enabling communication between Autonomous Systems (ASes).
 
 ---
 
