@@ -3,7 +3,7 @@
 ## 📌 Description
 Border Gateway Protocol (**BGP**) is the standard exterior gateway protocol designed to exchange routing and reachability information among **autonomous systems (AS)** on the Internet. It is the *glue* of the Internet and a fundamental part of its infrastructure. However, it is also a prime target for attacks—if compromised, attackers can disrupt Internet connectivity.
 
-This project explores how BGP interconnects the Internet, demonstrating its functionality using an **Internet Emulator**. Through a series of experiments, we analyze BGP operations, configure **stub** and **transit** autonomous systems, and simulate a **network prefix hijacking attack**.
+Internet exchanges, autonomous systems, BGP routers, DNS infrastructure, and a range of services are among the fundamental components of the Internet that are provided by the project (as Python classes). These components can be used as building pieces by users to construct own programmable emulation. A collection of Docker container directories and files is the program's output. These containers create a miniature Internet when they are constructed and launched. Blockchain, botnets, and many other helpful aspects of the Internet are among the new building blocks that are being added.
 
 ---
 
