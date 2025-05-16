@@ -14,6 +14,9 @@ The project provides fundamental Internet components implemented as Python class
 
 These components serve as modular building blocks that users can assemble to construct their own programmable Internet emulations.
 
+![image](https://github.com/user-attachments/assets/a7d2334e-edd0-417e-a6dc-7d6487c7a0b2)
+
+
 ---
 
 # 🚀 Getting Started
