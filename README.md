@@ -63,7 +63,6 @@ The emulator pulls Docker images from Docker Hub. If you encounter **slow** or *
 - 🌍 **BIRD Internet Routing Daemon**
 - 📡 **tcpdump**
 - 🏗️ **Linux Command-Line Utilities**
-- 🌐 **SEED Internet Emulator Web Interface**
 - 🏴‍☠️ **Ubuntu 20.04 VM**
 
 ---
