@@ -16,6 +16,29 @@ These components serve as modular building blocks that users can assemble to con
 
 ---
 
+# 🚀 Getting Started
+
+## ✅ Step 1: Install the Necessary Software
+
+To run the emulator, ensure the following are installed on your system:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Python 3](https://www.python.org/downloads/)
+
+---
+
+## 📂 Step 2: Set Up the Project
+
+To enable the emulator code:
+
+1. Add the project's root folder to the `PYTHONPATH` environment variable.
+2. Run the following command inside the root directory to temporarily set it:
+
+   ```bash
+   source development.env
+
+
 ## 🛠️ Languages and Utilities Used
 - 🐍 **Python**
 - 🖥️ **Bash**
