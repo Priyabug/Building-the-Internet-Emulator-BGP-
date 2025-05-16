@@ -38,6 +38,23 @@ To enable the emulator code:
    ```bash
    source development.env
 
+## 🌐 Step 3: Set Up the Proxy (Optional)
+
+> _Only needed if you're having issues downloading Docker images (e.g., you're in Mainland China)._
+
+The emulator pulls Docker images from Docker Hub. If you encounter **slow** or **failed** downloads:
+
+- **Use a Docker Hub proxy**  
+  📘 Follow the [proxy setup instructions](#) to configure your environment.
+
+- **If proxies are slow or unreliable**, we recommend building the Docker images **locally**.  
+  🛠️ Follow the [local build instructions](#) to build images directly on your machine.
+
+---
+
+✅ **If you're not facing any Docker Hub access issues, you can safely skip this step.**
+
+
 
 ## 🛠️ Languages and Utilities Used
 - 🐍 **Python**
