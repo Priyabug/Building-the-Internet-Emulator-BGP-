@@ -14,6 +14,15 @@ The project provides fundamental Internet components implemented as Python class
 
 These components serve as modular building blocks that users can assemble to construct their own programmable Internet emulations.
 
+## 🧰 Tools You’ll Use
+
+- **Amazon VPC** – to create isolated networks.
+- **EC2 Instances** – to host BGP-capable routers (e.g., using [FRRouting](https://frrouting.org/) or [Quagga](https://savannah.nongnu.org/projects/quagga/)).
+- **Customer Gateway & Virtual Private Gateway** – to simulate on-prem and cloud routing.
+- **VPN (IPSec)** or **Direct Connect** – to enable BGP sessions.
+- **Optional**: [Terraform](https://www.terraform.io/) or [AWS CloudFormation](https://aws.amazon.com/cloudformation/) – for automated deployment.
+
+
 ![image](https://github.com/user-attachments/assets/a7d2334e-edd0-417e-a6dc-7d6487c7a0b2)
 
 
