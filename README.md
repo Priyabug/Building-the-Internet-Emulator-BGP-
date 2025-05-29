@@ -98,10 +98,35 @@ The emulator pulls Docker images from Docker Hub. If you encounter **slow** or *
 
 ### 🌐 Key Learnings:
 
-- Understood how **stub** and **transit** ASes are configured and how they influence BGP routing behavior.
-- Simulated **prefix hijacking attacks**, demonstrating BGP’s vulnerabilities and the consequences of malicious route advertisement.
-- Analyzed **BGP path selection**, **UPDATE messages**, **IBGP vs. EBGP**, and the use of **Large Communities** for advanced policy control.
-- Explored the real-world application of **IP Anycast**, showcasing how the same IP can be advertised from multiple geographic locations.
+## Key Learnings from Internet Emulation Lab
+
+- **Understanding of Realistic Internet Modeling**  
+  Learned how to emulate real-world Internet environments by modeling components such as ASes, IXes, DNS servers, and blockchain networks.
+
+- **Limitations of GUI-Based Emulation Tools**  
+  Gained insight into the limitations of traditional GUI emulators like GNS3 and Packet Tracer, especially for large-scale or specialized networks.
+
+- **Benefits of Code-Based Emulation**  
+  Discovered that code-driven emulators offer better flexibility, scalability, and automation for network design and experimentation.
+
+- **Docker and SDK Integration**  
+  Understood how to use Docker and a custom SDK to create lightweight, programmable virtual network nodes.
+
+- **Hands-on with Internet Protocols and Infrastructure**  
+  Acquired practical experience configuring and testing key Internet protocols (e.g., DNS, BGP) in an emulated environment.
+
+- **Network Customization and Automation**  
+  Learned to define network topologies programmatically, enabling repeatable and customizable network scenarios.
+
+- **Emulation of Advanced Network Use Cases**  
+  Gained knowledge in simulating complex use cases like cybersecurity attacks and blockchain mining in a controlled environment.
+
+- **Component-Based Network Design Philosophy**  
+  Learned the benefits of abstracting network functions into components, promoting modular and reusable network designs.
+
+- **Scalability and Reusability in Emulation Environments**  
+  Understood how programmatic emulation allows for scalable, resource-efficient setups that can be reused across multiple scenarios.
+
 
 ---
 
