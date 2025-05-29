@@ -53,34 +53,41 @@ The emulator pulls Docker images from Docker Hub. If you encounter **slow** or *
 - **If proxies are slow or unreliable**, we recommend building the Docker images **locally**.  
   🛠️ Follow the [local build instructions](#) to build images directly on your machine.
 
-### Step 4. Use the Python-Based SDK
+## 🧰 Step 4: Use the Python-Based SDK
 
-The SDK provides Python classes and APIs for constructing:
+Leverage the SDK to easily construct key internet infrastructure components:
 
-- **Internet Exchange Points (IXPs)**
-- **Autonomous Systems (ASes)**
-- **DNS infrastructure** (Root, TLD, and authoritative servers)
-- **Host systems and networks**
-
----
-
-### Step 5. Write the Emulation Program
-
-Create a Python script using the SDK to define your network.
-
-- Example: Build a mini internet with **63 VMs**, **34 networks**, **6 IXPs**, and **DNS servers** in under 100 lines.
-- Used reusable components like the `DNS` class to save time and effort.
+- 🏢 **Internet Exchange Points (IXPs)**
+- 🌐 **Autonomous Systems (ASes)**
+- 🧭 **DNS Infrastructure**  
+  (Root, TLD, and authoritative servers)
+- 💻 **Host Systems and Networks**
 
 ---
 
-### Step 6. Generate Docker Configurations
+## ✍️ Step 5: Write the Emulation Program
 
-Run your Python script to auto-generate Dockerfiles and configurations:
+Create a Python script using the SDK to define your emulated internet.
+
+📌 **Example Use Case:**
+> Build a mini internet with:
+> - 63 Virtual Machines  
+> - 34 Networks  
+> - 6 IXPs  
+> - Full DNS infrastructure  
+> …all in under **100 lines** of code.
+
+♻️ Use **reusable components** like the `DNS` class to streamline development.
+
+---
+
+## ⚙️ Step 6: Generate Docker Configurations
+
+Run your Python script to auto-generate all necessary Dockerfiles and configuration files:
 
 ```bash
 python your_emulation_script.py
 ```
----
 
 ### 🚀 Step 7. Deploy the Emulated Network
 
