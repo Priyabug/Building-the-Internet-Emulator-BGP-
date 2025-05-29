@@ -126,23 +126,6 @@ Explore the examples and videos provided in the repository to understand practic
 ## 💻 Environments Used
 - 🏢 **Windows 10** *(21H2)*
 
----
-
-## 📜 Program Walk-through
-
-### 🔹 Task 1: Stub Autonomous System
-- **Task 1.a:** Understanding **AS-155’s BGP Configuration**
-- **Task 1.b:** Observing **BGP UPDATE Messages**
-- **Task 1.c:** Experimenting with **Large Communities**
-- **Task 1.d:** Configuring **AS-180**
-
-### 🔹 Task 2: Transit Autonomous System
-- **Task 2.a:** Experimenting with **IBGP**
-- **Task 2.b:** Experimenting with **IGP**
-
-### 🔹 Task 3: Path Selection
-
-### 🔹 Task 4: IP Anycast
 
 
 
