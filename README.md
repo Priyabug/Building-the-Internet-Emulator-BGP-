@@ -53,9 +53,62 @@ The emulator pulls Docker images from Docker Hub. If you encounter **slow** or *
 - **If proxies are slow or unreliable**, we recommend building the Docker images **locally**.  
   🛠️ Follow the [local build instructions](#) to build images directly on your machine.
 
+### Step 4. Use the Python-Based SDK
+
+The SDK provides Python classes and APIs for constructing:
+
+- **Internet Exchange Points (IXPs)**
+- **Autonomous Systems (ASes)**
+- **DNS infrastructure** (Root, TLD, and authoritative servers)
+- **Host systems and networks**
+
 ---
 
-✅ **If you're not facing any Docker Hub access issues, you can safely skip this step.**
+### Step 5. Write the Emulation Program
+
+Create a Python script using the SDK to define your network.
+
+- Example: Build a mini internet with **63 VMs**, **34 networks**, **6 IXPs**, and **DNS servers** in under 100 lines.
+- Used reusable components like the `DNS` class to save time and effort.
+
+---
+
+### Step 6. Generate Docker Configurations
+
+Run your Python script to auto-generate Dockerfiles and configurations:
+
+```bash
+python your_emulation_script.py
+```
+---
+
+### 🚀 Step 7. Deploy the Emulated Network
+
+Use **Docker Compose** or standard Docker CLI commands to deploy the emulated internet environment:
+
+```bash
+docker compose up
+```
+---
+
+### 🔍 Step 8. Verify and Interact with the System
+
+Ensure everything is functioning correctly:
+
+- ✅ **Validate service behavior** (e.g., DNS lookups, network routing)
+- 📈 **Monitor logs and container performance**
+- 🔗 **Test connectivity between nodes**
+
+---
+
+### 🎬 Step 9. Run Demonstration Examples
+
+Explore the examples and videos provided in the repository to understand practical use cases:
+
+- 🧪 DNS emulation demo
+- 🌐 Custom topologies
+- 💡 High-scale setups using minimal hardware (e.g., 2 CPU cores, 8GB RAM)
+
 
 
 
